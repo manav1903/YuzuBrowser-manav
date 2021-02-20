@@ -83,23 +83,18 @@ public class WebUtils {
             intent.putExtra(Intent.EXTRA_SUBJECT, title);
         return intent;
     }
-
-    public static void shareWeb(Context context, String url, String title) {
+  public static void shareWeb(Context context, String url, String title) {
         if (url == null) return;
 
-        Intent intent = createShareWebIntent(url, title);
+//        Intent intent = createShareWebIntent(url, title);
         try {
-                    String linktext = "https://yuzuappyhigh.page.link/?link="+url+"&apn=jp.hazuki.yuzubrowser.debug&afl=https://spata.in/appyhighproject.php&st=Try+YUZU+app+customized+by+MANAV&sd=Click+Here";
-    FirebaseApp.initializeApp(context);
+            String linktext = "https://yuzuappyhigh.page.link/?link="+url+"&apn=jp.hazuki.yuzubrowser.debug&afl=https://spata.in/appyhighproject.php&st="+title+"&sd=Click+Here";
+            FirebaseApp.initializeApp(context);
             FirebaseDynamicLinks.getInstance().createDynamicLink()
                 .setLongLink(Uri.parse(linktext))
-//                .setDomainUriPrefix("https://example.page.link")
-                // Set parameters
-                // ...
                 .buildShortDynamicLink()
                 .addOnCompleteListener((Activity) context, task -> {
                     if (task.isSuccessful()) {
-                        // Short link created
                         Uri shortLink = task.getResult().getShortLink();
 //                        Uri flowchartLink = task.getResult().getPreviewLink();
 
@@ -115,13 +110,14 @@ public class WebUtils {
                         Toast.makeText(context, "error " + task.getException(), Toast.LENGTH_SHORT).show();
                     }
                 });
-                Toast toast= Toast.makeText(context, "Hello web", Toast.LENGTH_LONG);
-                toast.show();
+//                Toast toast= Toast.makeText(context, "Hello web", Toast.LENGTH_LONG);
+//                toast.show();
 //            context.startActivity(Intent.createChooser(intent, context.getText(R.string.share)));
         } catch (ActivityNotFoundException e) {
             e.printStackTrace();
         }
     }
+
 
     public static Intent createOpenInOtherAppIntent(String url) {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
