@@ -88,9 +88,9 @@ public class WebUtils {
 
 //        Intent intent = createShareWebIntent(url, title);
         try {
-            String linktext = "https://yuzuappyhigh.page.link/?link="+url+"&apn=jp.hazuki.yuzubrowser.debug&afl=https://spata.in/appyhighproject.php&st="+title+"&sd=Click+Here";
+         String linktext = "https://yuzuappyhigh.page.link/?link="+url+"&apn=jp.hazuki.yuzubrowser.debug&afl=https://spata.in/appyhighproject.php&st="+title+"&sd=Click+Here&si="+"https://spata.in/yuzu.png";
             FirebaseApp.initializeApp(context);
-            FirebaseDynamicLinks.getInstance().createDynamicLink()
+                 FirebaseDynamicLinks.getInstance().createDynamicLink()
                 .setLongLink(Uri.parse(linktext))
                 .buildShortDynamicLink()
                 .addOnCompleteListener((Activity) context, task -> {
