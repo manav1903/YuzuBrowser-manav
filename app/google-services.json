@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "62200319017",
+    "project_id": "yuzubrowser-appyhigh",
+    "storage_bucket": "yuzubrowser-appyhigh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62200319017:android:e9053817ab41ea035be038",
+        "android_client_info": {
+          "package_name": "jp.hazuki.yuzubrowser.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62200319017-n94gl7o0327k0067kp0fsemi9a84mf72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmMh33wyNTBH9WgL337_Rddn2sSJkn0gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62200319017-n94gl7o0327k0067kp0fsemi9a84mf72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

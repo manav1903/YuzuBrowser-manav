@@ -1,0 +1,121 @@
+{
+  "project_info": {
+    "project_number": "62200319017",
+    "project_id": "yuzubrowser-appyhigh",
+    "storage_bucket": "yuzubrowser-appyhigh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62200319017:android:1a2a9b952ab627a95be038",
+        "android_client_info": {
+          "package_name": "jp.hazuki.yuzubrowser.browser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62200319017-9kt7i2lfoc6ru3lri5oj4tpeumsqtblt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jp.hazuki.yuzubrowser.browser",
+            "certificate_hash": "b2da542e0b60592a3e9b1126843754fa9b6aa34f"
+          }
+        },
+        {
+          "client_id": "62200319017-n94gl7o0327k0067kp0fsemi9a84mf72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmMh33wyNTBH9WgL337_Rddn2sSJkn0gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62200319017-n94gl7o0327k0067kp0fsemi9a84mf72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62200319017:android:e9053817ab41ea035be038",
+        "android_client_info": {
+          "package_name": "jp.hazuki.yuzubrowser.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62200319017-n3hib7gsnqcrm6fafl2918v1h7igbche.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jp.hazuki.yuzubrowser.debug",
+            "certificate_hash": "b2da542e0b60592a3e9b1126843754fa9b6aa34f"
+          }
+        },
+        {
+          "client_id": "62200319017-n94gl7o0327k0067kp0fsemi9a84mf72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmMh33wyNTBH9WgL337_Rddn2sSJkn0gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62200319017-n94gl7o0327k0067kp0fsemi9a84mf72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62200319017:android:b35d44a73a9abc5d5be038",
+        "android_client_info": {
+          "package_name": "jp.hazuki.yuzubrowser.legacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62200319017-vbbp66tbkandh0ftmtv5f9qtcs88ju3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jp.hazuki.yuzubrowser.legacy",
+            "certificate_hash": "b2da542e0b60592a3e9b1126843754fa9b6aa34f"
+          }
+        },
+        {
+          "client_id": "62200319017-n94gl7o0327k0067kp0fsemi9a84mf72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmMh33wyNTBH9WgL337_Rddn2sSJkn0gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62200319017-n94gl7o0327k0067kp0fsemi9a84mf72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
